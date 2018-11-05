@@ -4,8 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
+import Counter from './component/counter';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Counter />, document.getElementById('root'));
 //Hey this is just new commit
 //This change is done from sublime
 
